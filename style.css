@@ -1,3 +1,9 @@
+body {
+     max-width: 80%;
+     margin: auto;
+     background: linear-gradient(360deg, #FAEDCD, #E9EDC9, #CCD5AE, #D4A373);;
+}
+
 p {
     font-family:  Garamond,Georgia, serif;
     letter-spacing: 1px;
@@ -17,4 +23,19 @@ a:visited {
 
 a:hover {
     background-color: rgb(163, 177, 138);
+}
+
+blockquote {
+    width: 50%;
+    margin: auto;
+    font-size: 160%;
+    background-color: rgb(186,186,186);
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+blockquote p {
+    font-size: 1rem;
 }
