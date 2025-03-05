@@ -1,0 +1,20 @@
+p {
+    font-family:  Garamond,Georgia, serif;
+    letter-spacing: 1px;
+    font-size: 1em;
+    color: rgb(52, 78, 65);
+}
+
+a {
+    color: rgb(52, 78, 65);
+    text-decoration: none;
+    background-color: rgb(218, 215, 205);
+}
+
+a:visited {
+    background-color: rgb(221, 161, 94);
+}
+
+a:hover {
+    background-color: rgb(163, 177, 138);
+}
