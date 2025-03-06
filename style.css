@@ -1,7 +1,13 @@
 body {
      max-width: 80%;
      margin: auto;
-     background: linear-gradient(360deg, #FAEDCD, #E9EDC9, #CCD5AE, #D4A373);;
+     background: linear-gradient(360deg, #FAEDCD, #E9EDC9, #CCD5AE, #D4A373), rgba(255,255,255,0.6);
+     background-image: url("./assets/chinese-farmer.jpg");
+     background-repeat: no-repeat;
+     background-position: right bottom;
+     background-size: cover;
+     background-blend-mode: lighten;
+     font-family: "Open Sans", sans-serif;
 }
 
 p {
@@ -34,8 +40,100 @@ blockquote {
     padding-left: 30px;
     margin-top: 80px;
     margin-bottom: 80px;
+    font-style: italic;
 }
 
-blockquote p {
-    font-size: 1rem;
+q {
+    display: block;
+    width: 50%;
+    margin: auto;
+    font-size: 1.6rem;
+    background-color: rgb(186,186,186);
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic; 
+}
+
+q.villagers {
+    border-left: 3px solid blue;
+}
+
+q.farmer {
+    border-left: 3px solid green;
+}
+
+header > h1 {
+    background-color: rgb(255, 190, 11);
+}
+
+[class$="ood"] {
+    text-transform: capitalize;
+    color: green;
+}
+
+[class$="ad"] {
+    text-transform: capitalize;
+    color: red;
+}
+
+table tr:nth-child(even) {
+    background-color: grey;
+}
+
+table tr:nth-child(odd) {
+    background-color: white;
+}
+
+ul li {
+    width: 25%;
+    line-height: 50px;
+}
+
+ul li:first-child {
+    background-image: url("./assets/bien.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 5%;
+}
+
+ul li:nth-child(2) {
+    background-image: url("./assets/mal.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 5%;
+}
+
+ul li:nth-child(3) {
+    background-image: url("./assets/chat.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 5%;
+}
+
+p:nth-of-type(2) {
+    font-weight: bold;
+}
+
+#good-and-bad img {
+    float: left;
+    margin: 20px;
+}
+
+#good-and-bad figure {
+    float: left;
+}
+
+#story > h2 {
+    clear: left;
+}
+
+#story figure {
+    float: left;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
 }
